@@ -1,23 +1,19 @@
-#include <iostream>
+//1. Faça um algoritmo para ler um número e informar se ele está na faixa de
+//números entre 100(inclusive) e 1000(inclusive).
 
- int idade;
-
+#include <stdio.h>
 int main() {
-    printf("Digite a idade:");
-    scanf("%i", &idade);
-    if (idade == 16 || idade == 17 || idade>70)
-        {
-        printf("\n Voto facultativo!");
-        printf("\n Você não é obrigado a votar!");
-        }
-    else
-        if (idade >=18 && idade <=70)
-            printf("Voto obrigatório!");
+
+    int numero;
+
+    printf("Digite um número: ");
+    scanf("%i", &numero);
+    
+        if(numero <99 || numero >1000)
+        printf("Está fora da faixa de números!");
         else
-            if(idade <= 15)
-            {
-                printf("Ainda não pode votar");
-                printf("\nPrecisa ter 16 anos ou mais");
-            }
+            if(numero == 100 || numero < 1000)
+            printf("Está dentro da faixa de números!");
+
     return 0;
 }
