@@ -53,7 +53,7 @@ int main (){
     scanf("%f", &n2);
     printf("Digite mais um número: ");
     scanf("%f", &n3);
-    mult=n1+n2+n3*2;
+    mult= (n1+n2+n3)*2;
     printf("O quadrado da soma é: %.2f", mult);
             break;
      case '5':

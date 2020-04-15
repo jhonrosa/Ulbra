@@ -9,7 +9,7 @@
 int main() {
 
     int n1,n2,n3,n4,n5;
-    float a,b,c,d,e,total;
+    float total;
     
     printf("Digite a quantidade de moedas de 1 real: ");
     scanf("%i", &n1);

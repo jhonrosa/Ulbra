@@ -13,7 +13,7 @@ int main () {
     scanf("%i", &b);
     s = (a-b);
     s1 = (s*s);
-    printf("A diferença é: %i", s1);
+    printf("O quadrado da diferença é: %i", s1);
 
     return 0;
 
